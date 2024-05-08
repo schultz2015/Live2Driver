@@ -1,0 +1,11 @@
+{
+    "settings": {
+        "Angry": "Idle:1",
+        "Disgust": "Idle:0",
+        "Fear": "Idle:2",
+        "Happy": "Idle:1",
+        "Sad": "Idle:1",
+        "Surprise": "Idle:0",
+        "allow": "yes"
+    }
+}

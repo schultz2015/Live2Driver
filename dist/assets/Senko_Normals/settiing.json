@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "Angry": "Taphead:1",
+        "Disgust": "Tick_5:0",
+        "Fear": "Tick_5:0",
+        "Happy": "Tap:0",
+        "Sad": "Idle:0",
+        "Surprise": "Idle:0"
+    }
+}

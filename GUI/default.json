@@ -1,0 +1,33 @@
+{
+    "defaultModel": {
+        "modelNum": 0,
+        "modelAddresss": "hiyori_pro_zh/runtime/hiyori_pro_t11.model3.json"
+    },
+    "modellist": [
+        {
+            "modelNum": 0,
+            "modelAddresss": "Alexia/Alexia.model3.json",
+            "modelIcon": "None"
+        },
+        {
+            "modelNum": 1,
+            "modelAddresss": "hiyori_pro_zh/runtime/hiyori_pro_t11.model3.json",
+            "modelIcon": "None"
+        },
+        {
+            "modelNum": 2,
+            "modelAddresss": "huohuo/huohuo.model3.json",
+            "modelIcon": "None"
+        },
+        {
+            "modelNum": 3,
+            "modelAddresss": "mark_free_zh/runtime/mark_free_t04.model3.json",
+            "modelIcon": "None"
+        },
+        {
+            "modelNum": 4,
+            "modelAddresss": "Senko_Normals/senko.model3.json",
+            "modelIcon": "None"
+        }
+    ]
+}

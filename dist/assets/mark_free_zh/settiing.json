@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "Angry": "Tap:0",
+        "Disgust": "Tap:1",
+        "Fear": "FlickDown:0",
+        "Happy": "Tap:2",
+        "Sad": "Idle:0",
+        "Surprise": "FlickUp:0"
+    }
+}

@@ -1,0 +1,88 @@
+
+body {
+	margin: 0;
+}
+
+canvas {
+	display: block;
+}
+
+video {
+	max-width: 320px;
+	height: auto;
+	transform: scale(-1, 1);
+}
+/* #reload {
+	border: 2px solid black;
+	width: 80;
+	border-radius: 16px;
+	height: auto;
+	text-align: center;
+	top: 0px; left: 0px;
+} */
+#reload {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: cadetblue;
+	text-align: center;
+	line-height: 30px;
+	/* border: 2px solid black; */
+	border-radius: 50%;
+
+	left: 16px;
+}
+  
+#reload:hover {
+	
+	width: 80px;
+	border-radius: 16px;
+	cursor: pointer;
+	text-align: center;
+
+}
+#show {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+
+	text-align: center;
+	line-height: 30px;
+	background-color:chocolate;
+	/* border: 2px solid black; */
+	border-radius: 50%;
+	
+	top: 30px;
+	left: 16px;
+}
+#show:hover {
+	/* border: 2px solid black; */
+	width: 80px;
+	border-radius: 16px;
+	cursor: pointer;
+	text-align: center;
+	
+}
+#preview {
+	display:flex; 
+	flex-direction: column;
+	position: absolute;
+	top: 60px; left: 16px;
+	overflow: hidden;
+	border-radius: 16px;
+	visibility:hidden;
+}
+
+#preview canvas {
+	transform: scale(-1, 1);
+}
+
+#my-guides {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: auto;
+	z-index: 1;
+}
+#my-emo {
+	font-size: larger;
+}
